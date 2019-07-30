@@ -1,0 +1,24 @@
+body{
+  background-color: white;
+}
+.pageTop {
+  background-color: white;
+  text-align: center;
+}
+.pageMiddle {
+  background-color: white;
+  text-align: center;
+}
+.pageBottom {
+  background-color: white;
+  text-align: center;
+}
+.pageHeader {
+  color: black;
+}
+.pageSubHeader {
+  color: black;
+}
+p {
+  color: AliceBlue;
+}
