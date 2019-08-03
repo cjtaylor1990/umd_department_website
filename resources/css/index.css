@@ -1,24 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body{
-  background-color: white;
+  background-color: lightblue;
 }
+
 .pageTop {
-  background-color: white;
-  text-align: center;
+  background-color: lightblue;
+  display: block;
+  color: white;
 }
+
+.pageTop .topTitle {
+  display: inline-block;
+  text-align: right;
+  float: right;
+}
+
+.pageTop .topImage{
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.pageTop img{
+  display: inline-block;
+}
+.navBar {
+  background-color: steelblue;
+  display: block;
+  text-align: right;
+  width: 100%;
+  margin: 10px 0;
+}
+.navBar h2{
+  color: white;
+  display: inline-block;
+  height: 30px;
+  margin: 20px;
+}
+
+.navBar h2:hover{
+  color: lightgray;
+}
+
 .pageMiddle {
   background-color: white;
   text-align: center;
+  padding: 10px;
+}
+
+.pageMiddle img{
+  width: 60%;
+  display: inline-block;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 .pageBottom {
   background-color: white;
   text-align: center;
+  margin-top: 10px;
+  padding: 10px;
 }
-.pageHeader {
-  color: black;
-}
-.pageSubHeader {
-  color: black;
-}
+
 p {
-  color: AliceBlue;
+  color: black;
+  text-align: justify;
+  text-justify: inter-word;
 }
