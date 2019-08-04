@@ -5,7 +5,14 @@
 }
 
 body{
-  background-color: lightblue;
+  background-image: url("../pictures/wood.jpg");
+}
+
+table{
+  table-layout: fixed;
+  width:85%;
+  margin: 0% 7.5%;
+  border-bottom-width: 0px;
 }
 
 .pageTop {
@@ -16,8 +23,9 @@ body{
 
 .pageTop .topTitle {
   display: inline-block;
-  text-align: right;
   float: right;
+  text-align: right;
+  margin: 10px 10px;
 }
 
 .pageTop .topImage{
@@ -26,49 +34,55 @@ body{
   margin-top: 10px;
 }
 
-.pageTop img{
-  display: inline-block;
-}
 .navBar {
   background-color: steelblue;
   display: block;
   text-align: right;
   width: 100%;
-  margin: 10px 0;
 }
-.navBar h2{
+.navBar td{
   color: white;
   display: inline-block;
+  right: 0;
   height: 30px;
   margin: 20px;
 }
 
-.navBar h2:hover{
+.navBar td:hover{
   color: lightgray;
 }
 
 .pageMiddle {
   background-color: white;
-  text-align: center;
+  text-align: left;
   padding: 10px;
 }
 
-.pageMiddle img{
-  width: 60%;
-  display: inline-block;
-  float: right;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-.pageBottom {
-  background-color: white;
-  text-align: center;
-  margin-top: 10px;
-  padding: 10px;
-}
-
-p {
+.pageMiddle p {
   color: black;
   text-align: justify;
   text-justify: inter-word;
+  display: block;
+  margin: 10px;
+}
+
+.pageMiddle img{
+  display: inline-block;
+  float: right;
+  right: 0px;
+  margin-bottom: 10px;
+  width: 55%;
+  overflow: auto;
+  padding: 10px;
+}
+.pageBottom {
+  background-color: steelblue;
+  text-align: center;
+  display: block;
+}
+
+.pageBottom td{
+  display: inline-block;
+  margin: 10px;
+  color: white;
 }
