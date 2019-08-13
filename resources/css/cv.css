@@ -66,16 +66,32 @@ body{
 }
 
 
-.pageContent p {
-  color: black;
+.pageContent p{
   text-align: left;
   display: block;
-  margin: 1em;
+  padding-bottom: 1em;
 }
 
-.pageContent .introduction {
+.cvSection {
+  text-align: left;
+}
+
+.cvSection a{
   color: steelblue;
-  font-size: 1.3em;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.cvSection a:hover{
+  color: lightgray;
+}
+
+.cvSection h2 {
+  color: steelblue;
+}
+
+.cvSection li {
+  margin: 1em;
 }
 
 .pageContent img{
