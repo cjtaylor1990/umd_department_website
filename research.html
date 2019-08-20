@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Corbin Taylor</title>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="centerColumn" align="center">
+
+      <div class = "pageTop">
+        <div class ="topImage">
+          <img src="./resources/pictures/self_picture.jpg" height="100" width="100"/>
+        </div>
+        <div class="topTitle">
+          <h1> Corbin Taylor </h1>
+          <h4> Doctoral Candidate </h4>
+          <h4> Department of Astronomy </h4>
+          <h4> University of Maryland - College Park </h4>
+        </div>
+      </div>
+
+      <nav class="navBar">
+          <a href="index.html" class="navButton"> Home </a>
+          <a href="research.html" class="navButton"> Research </a>
+          <a href="cv.html" class="navButton"> CV </a>
+          <a class="navButton"> Links </a>
+      </nav>
+
+      <div class="pageContent">
+
+        <img src="./resources/pictures/intensity_maps.png" title=
+        "Disk geometry can greatly affect the emissivity profile, an effect not captured by previous models (Taylor & Reynolds 2018a).">
+
+        <h3 class="projectTitle"> X-ray Reflection Modeling with Fenrir </h3>
+        <p class="projectDescription">
+          My most recent work has been focused on trying to better interpret the X-ray reflection spectra of
+          supermassive black holes in active galactic nuclei (AGN), which is produced when the
+          inner-most regions of the accretion disk are irradiated by a compact corona most commonly interpreted
+          as the base of a black hole jet. These X-rays carry with it information about the central object, but
+          unfortunately due to astrophyical uncertainties and the complexity of the physics, it is common to
+          make simplifying assumptions in our models. This results in inaccuraties in the answers
+          we infer from our data. For example, it is commonly assumed that the disk has negligible geometric
+          thickness, an assumption that, while helpful in simplifying calculations, seems inconsistent with
+          modern accretion theory.
+        </p>
+        <p class="projectDescription">
+          In order to incorporate more accurate physics, I have created a new reflection model from scratch
+          using the C++ and Python programming languages. Named <b> Fenrir </b>, this model traces the paths
+          of photons through spacetime to predict the shape of the X-ray spectral features and allows for the
+          use of any axisymmetric analytic disk model. Early results from this project have been presented in
+          Taylor & Reynolds (2018a,b), which used a disk profile consistent with Shakura & Sunyaev (1973), suggest
+          that disk geometry is indeed a major source of systematic error that had previously been largely ignored
+          in the literature. For example, the inner-most accretion disk can act to shield the outer disk from the central
+          corona, and thus would dominate the observed flux (see figure).
+        </p>
+        <p class="projectDescription">
+          <b> Fenrir </b> will be released publicly as a pre-computed XSPEC grid model suite very soon (Taylor, Reynolds, & Reynolds
+          in prep) and the corresponding code will be released shortly thereafter on my <a href=""> Github account </a>. Afterward,
+          I will use this new model to study a number of archetypical AGN, as well as perform a parameter space exploration to
+          better quantify the systematic error inherent in using past models.
+        </p>
+
+      </div>
+
+      <div class=pageBottom>
+        <div>
+          Created by Corbin Taylor<br>
+          Updated on 20 August 2019
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+ </html>
