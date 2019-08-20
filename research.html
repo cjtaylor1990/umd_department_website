@@ -35,30 +35,32 @@
 
         <h3 class="projectTitle"> X-ray Reflection Modeling with Fenrir </h3>
         <p class="projectDescription">
-          My most recent work has been focused on trying to better interpret the X-ray reflection spectra of
+          My thesis work has been focused on trying to better interpret the X-ray reflection spectra of
           supermassive black holes in active galactic nuclei (AGN), which is produced when the
-          inner-most regions of the accretion disk are irradiated by a compact corona most commonly interpreted
-          as the base of a black hole jet. These X-rays carry with it information about the central object, but
+          inner-most regions of the accretion disk are irradiated by a hot compact corona (most commonly interpreted
+          as the base of a black hole jet), the disk reprocessing this radiation as a series of
+          smeared X-ray spectral features. These features carry information about the black hole, but
           unfortunately due to astrophyical uncertainties and the complexity of the physics, it is common to
-          make simplifying assumptions in our models. This results in inaccuraties in the answers
-          we infer from our data. For example, it is commonly assumed that the disk has negligible geometric
-          thickness, an assumption that, while helpful in simplifying calculations, seems inconsistent with
-          modern accretion theory.
+          make simplifying assumptions in trying to model this phenomenon. Some of these assumptions are
+          unphysical, resulting in inaccuraties in the model predictions and in any answers we try to
+          we infer from data using these models. For example, it is commonly assumed that the disk has
+          negligible geometric thickness, an assumption that, while helpful in simplifying calculations, seems
+          inconsistent with modern accretion theory.
         </p>
         <p class="projectDescription">
-          In order to incorporate more accurate physics, I have created a new reflection model from scratch
-          using the C++ and Python programming languages. Named <b> Fenrir </b>, this model traces the paths
-          of photons through spacetime to predict the shape of the X-ray spectral features and allows for the
-          use of any axisymmetric analytic disk model. Early results from this project have been presented in
+          In order to incorporate more accurate accretion physics, I have created a new reflection model from scratch
+          using the C++ and Python programming languages. Named <b> Fenrir </b>, this program traces the paths
+          of photons through curved curved spacetime to predict the shape of the X-ray spectral features, allowing for the
+          use of any axisymmetric analytic disk model chosen. Early results from this project have been presented in
           Taylor & Reynolds (2018a,b), which used a disk profile consistent with Shakura & Sunyaev (1973), suggest
-          that disk geometry is indeed a major source of systematic error that had previously been largely ignored
-          in the literature. For example, the inner-most accretion disk can act to shield the outer disk from the central
-          corona, and thus would dominate the observed flux (see figure).
+          that disk geometry is indeed a major source of systematic error in reflection modeling that had previously
+          been largely ignored in the literature. For example, the inner-most accretion disk can act to shield the
+          outer disk from the central corona, and thus would dominate the observed flux (see figure).
         </p>
         <p class="projectDescription">
           <b> Fenrir </b> will be released publicly as a pre-computed XSPEC grid model suite very soon (Taylor, Reynolds, & Reynolds
-          in prep) and the corresponding code will be released shortly thereafter on my <a href=""> Github account </a>. Afterward,
-          I will use this new model to study a number of archetypical AGN, as well as perform a parameter space exploration to
+          in prep) and the corresponding code will be released on my <a href=""> Github account </a> shortly thereafter.
+          I will then use this new model to study a number of archetypical AGN, as well as perform a parameter space exploration to
           better quantify the systematic error inherent in using past models.
         </p>
 
