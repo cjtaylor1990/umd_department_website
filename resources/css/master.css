@@ -8,7 +8,7 @@
 
 /*Formatting for main body*/
 body {
-    /*background-image: url("../pictures/wood.jpg");*/
+  background-color: white;
 }
 
 @media screen and (min-width: 800px) {
