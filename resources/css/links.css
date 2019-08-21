@@ -1,7 +1,7 @@
-/* Index-specific CSS styles */
+/* Links page specific CSS styles */
 .pageContent {
   background-color: white;
-  text-align: left;
+  text-align: center;
   padding: 1em;
   padding-bottom: 1em;
   overflow: scroll;
@@ -21,11 +21,32 @@
 }
 
 .pageContent img {
-  	padding: 1em;
+   padding: 1em;
+ }
+
+.pageContent a{
+   color: steelblue;
+   text-decoration: none;
+   font-style: italic;
+ }
+
+.pageContent h2{
+  color: steelblue;
+}
+
+.pageContent a:hover{
+  color: lightgray;
+}
+
+img.linkIcon {
+  display: inline block;
+  height: 8em;
+  width: auto;
+  background-color: white;
  }
 
 @media only screen and (min-width: 800px) {
-  .pageContent img {
+  .sidePicture img {
     display: block;
   	float: right;
   	width: 55%;
@@ -33,7 +54,7 @@
 }
 
  @media only screen and (max-width: 800px) {
-  .pageContent img {
+  .sidePicture img {
     width: 100%;
     display: block;
   }
