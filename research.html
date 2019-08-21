@@ -37,20 +37,20 @@
           My thesis work has been focused on trying to better interpret the X-ray reflection spectra of
           supermassive black holes in active galactic nuclei (AGN), which is produced when the
           inner-most regions of the accretion disk are irradiated by a hot compact corona (most commonly interpreted
-          as the base of a black hole jet), the disk reprocessing this radiation as a series of
-          smeared X-ray spectral features. These features carry information about the black hole, but
-          unfortunately due to astrophyical uncertainties and the complexity of the physics, it is common to
-          make simplifying assumptions in trying to model this phenomenon. Some of these assumptions are
-          unphysical, resulting in inaccuraties in the model predictions and in any answers we try to
-          we infer from data using these models. For example, it is commonly assumed that the disk has
-          negligible geometric thickness (i.e. is "razor-thin"), an assumption that, while helpful in
-          simplifying calculations, seems inconsistent with modern accretion theory.
+          as the base of a black hole jet). This radiation is then reprocessed by the disk, producing a series of
+          smeared X-ray spectral features that carry information about the black hole. Due to
+          astrophyical uncertainties and the complexity of the physics, it is common to
+          make simplifying assumptions in trying to model this phenomenon. While some of these assumptions are
+          physically-motivated approximations, others are unphysical, resulting in inaccuraties in the
+          model predictions and in any answers we try to we infer from data using our models. For example,
+          it is commonly assumed that the disk has negligible geometric thickness (i.e. is "razor-thin"),
+          an assumption that seems inconsistent with modern accretion theory.
         </p>
 
         <p class="projectDescription">
           In order to incorporate more accurate accretion physics, I have created a new reflection model from scratch
           using the C++ and Python programming languages. Named <em> Fenrir </em>, this program traces the paths
-          of photons through curved curved spacetime to predict the shape of the X-ray spectral features, allowing for the
+          of photons through curved spacetime to predict the shape of the X-ray spectral features, allowing for the
           use of any axisymmetric analytic disk model chosen. Early results from this project have been presented in
           Taylor & Reynolds (2018a,b), which used a disk profile consistent with Shakura & Sunyaev (1973), suggest
           that disk geometry is indeed a major source of systematic error in reflection modeling that had previously
