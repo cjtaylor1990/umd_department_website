@@ -49,29 +49,17 @@ body {
 
 }
 
-
-.pageTop .topTitle h1 {
-  font-size: 1.25em;
-}
-
-.pageTop .topTitle h4 {
-  font-size: 0.85em;
-}
-
-@media screen and (min-width: 600px) {
-  .pageTop .topTitle h1{
-    font-size: 2em;
-  }
-  .pageTop .topTitle h4{
-    font-size: 1em;
-  }
-}
-
 .pageTop .topImage{
-  display: block;
+  display: none;
   margin-left: 1em;
   margin-top: 1em;
   float: left;
+}
+
+@media screen and (min-width: 600px) {
+  .pageTop .topImage{
+    display: block;
+  }
 }
 
 /*Formatting for top nav bar*/
