@@ -66,10 +66,16 @@ body {
 
 .pageContent {
   background-color: white;
-  text-align: left;
+  text-align: center;
   padding: 1em;
   padding-bottom: 1em;
   overflow: scroll;
+}
+
+.pageContent a{
+  color: steelblue;
+  text-decoration: none;
+  font-style: italic;
 }
 
 
