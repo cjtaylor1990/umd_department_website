@@ -78,6 +78,9 @@ body {
   font-style: italic;
 }
 
+.pageContent a:hover{
+  color: lightgray;
+}
 
 .pageContent p {
   color: black;
