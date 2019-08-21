@@ -37,6 +37,11 @@ h2.projectTitle, h4.imageTitle {
   flex-direction: column;
 }
 
+.projectImage img {
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (min-width: 800px) {
   .projectImage div {
     flex-direction: row;
