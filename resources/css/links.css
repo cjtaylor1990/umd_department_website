@@ -15,27 +15,16 @@
   margin: 1em;
 }
 
-.pageContent .introduction {
-  color: steelblue;
-  font-size: 1.3em;
-}
-
 .pageContent img {
    padding: 1em;
  }
 
-.pageContent a{
+ .pageContent h2{
    color: steelblue;
-   text-decoration: none;
-   font-style: italic;
  }
 
 .pageContent h2{
   color: steelblue;
-}
-
-.pageContent a:hover{
-  color: lightgray;
 }
 
 img.linkIcon {
@@ -45,17 +34,15 @@ img.linkIcon {
   background-color: white;
  }
 
+.sidePicture img {
+  width: 100%;
+  display: block;
+}
+
 @media only screen and (min-width: 800px) {
   .sidePicture img {
     display: block;
   	float: right;
   	width: 55%;
-  }
-}
-
- @media only screen and (max-width: 800px) {
-  .sidePicture img {
-    width: 100%;
-    display: block;
   }
 }

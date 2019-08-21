@@ -25,11 +25,6 @@
   margin: 1em;
 }
 
-.pageContent .introduction {
-  color: steelblue;
-  font-size: 1.3em;
-}
-
 h2.projectTitle, h4.imageTitle {
   color: steelblue;
 }
@@ -39,6 +34,7 @@ h2.projectTitle, h4.imageTitle {
   flex: 0 0 100%;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
 }
 
 @media only screen and (min-width: 800px) {
@@ -48,11 +44,5 @@ h2.projectTitle, h4.imageTitle {
 
   .projectImage img {
     max-width: 48%;
-  }
-}
-
- @media only screen and (max-width: 800px) {
-  .projectImage div{
-    flex-direction: column;
   }
 }
